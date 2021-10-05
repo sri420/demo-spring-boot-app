@@ -19,6 +19,10 @@ public String greetUser(@PathVariable("name") String name) {
 	return String.format("Welcome To Chennai, %s ",name);
 }
 
+@GetMapping("/")
+public String getHome() {
+	return "Welcome To Home Page of Application";
+}
 
 
 
