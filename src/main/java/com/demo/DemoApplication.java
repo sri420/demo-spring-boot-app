@@ -1,4 +1,4 @@
-package com.demo.app.demo;
+package com.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,7 +21,7 @@ public String greetUser(@PathVariable("name") String name) {
 
 @GetMapping("/")
 public String getHome() {
-	return "Welcome To Home Page of Application";
+	return "Welcome To UPDATED Home Page of Application";
 }
 
 
