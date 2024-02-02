@@ -16,7 +16,7 @@ public class DemoApplication {
 
 @GetMapping("/greet/{name}")
 public String greetUser(@PathVariable("name") String name) {
-	return String.format("Welcome To Singara Chennai, %s ",name);
+	return String.format("Welcome To Hello Chennai, %s ",name);
 }
 
 @GetMapping("/")
